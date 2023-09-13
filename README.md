@@ -18,6 +18,7 @@ Holaa🤗, mi nombre es Cecilia. <br> Soy una chica de Valencia (España) con in
 
 ## Lenguajes y herramientas 🛠
 ![HTML5](https://img.shields.io/badge/-HTML5-%23E44D27?style=flat&logo=html5&logoColor=ffffff)
+![CSS](https://img.shields.io/badge/-CSS-323D7E?style=flat&logo=css)
 ![Java](http://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=ffffff)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)
 ![Python](https://img.shields.io/badge/-Python-95b6fc?style=flat&logo=python)
