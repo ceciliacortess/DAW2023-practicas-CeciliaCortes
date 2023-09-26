@@ -5,31 +5,39 @@
         <title>Estructura Objetos Empleados</title>
         <meta name="author" content="Cecilia Cortés Velert"/>
         <script>
-            function Empleado(nombre){
-                this.nombre = nombre || "";
-                this.departamento = "Informático";
+            class Empleado{
+                constructor(nombre, departamento){
+                    this.nombre = nombre || "";
+                    this.departamento = "Informático";
+                }
             }
 
-            function Director(nombre){
-                Empleado.call(this, nombre);
-                this.informes = [];
+            class Director extends Empleado{
+                constructor(nombre, departamento, informes){
+                    super(nombre, departamento);
+                    this.informes = [];
+                }
             }
 
             Director.prototype = new Empleado();
             Director.prototype.constructor = Director;
 
-            function Trabajador(nombre){
-                Empleado.call(this, nombre);
-                this.proyectos = [];
+            class Trabajador extends Empleado{
+                constructor(nombre, departamento, informes){
+                    super(nombre, departamento);
+                    this.proyectos = [];
+                }
             }
 
             Trabajador.prototype = new Empleado();
             Trabajador.prototype.constructor = Trabajador;
 
-            function Ingeniero(nombre){
-                Trabajador.call(this, nombre);
-                this.lenguajeProgramacion = "";
-                this.departamento = "Ingeniería";
+            class Ingeniero extends Trabajador{
+                constructor(nombre, departamento, informes, lenguajeProgramacion){
+                    super(nombre, departamento, informes);
+                    this.lenguajeProgramacion = "";
+                    this.departamento = "Ingeniería";
+                }
             }
 
             Ingeniero.prototype = new Trabajador();
