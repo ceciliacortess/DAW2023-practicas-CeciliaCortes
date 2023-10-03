@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        #div{
+            height: 200px; 
+            width: 400px;
+            text-align: center;
+            line-height: 200px;
+            background-color: white;
+        }
+    </style>
+  </head>
+  <body>
+    <div onmouseout="cambiarColor('white')" onmouseover="cambiarColor('pink')" id = "div">Pasa el raton por aqui</div>
+    <script>
+        div = document.getElementById("div");
+        function cambiarColor(color){
+            div.style.backgroundColor = color;
+        }
+    </script>
+  </body>
+</html>
