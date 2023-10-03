@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <script>
+        var color = window.prompt("Que color desea de fondo? R para rojo, V para verde y A para azul");
+        if (color.toLowerCase() == "r") {
+            document.body.style.backgroundColor = "red";
+        } 
+        else if (color.toLowerCase() == "v") {
+            document.body.style.backgroundColor = "#33FF38";
+        } 
+        else if (color.toLowerCase() == "a") {
+            document.body.style.backgroundColor = "#3633FF";
+        } 
+        else {
+            alert("No se ha seleccionado ningún color válido");
+        }
+    </script>
+  </body>
+</html>
