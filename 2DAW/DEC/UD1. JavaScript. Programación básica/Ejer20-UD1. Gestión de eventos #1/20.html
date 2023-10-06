@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      #fondo {
+        background-color: black;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+      }
+      h1 {
+        color: white;
+        text-align: center;
+      }
+    </style>
+    <script>
+        document.addEventListener("keydown", cambiarFondo);
+        function cambiarFondo(event) {
+            if (event.altKey && event.key === "F12") {
+                fondo = document.getElementById("fondo");
+                fondo.style.backgroundImage = "url('https://source.unsplash.com/random')"; 
+            }
+        }
+    </script>
+  </head>
+  <body id="fondo">
+    <h1>Pulsa ALT + F12 para cambiar el fondo</h1>
+  </body>
+</html>

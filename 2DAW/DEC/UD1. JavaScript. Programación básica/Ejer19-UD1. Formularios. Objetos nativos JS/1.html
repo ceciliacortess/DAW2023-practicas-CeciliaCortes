@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1>Ejercicio cadenas</h1>
+    <label>Introduce una cadena de texto: </label>
+    <input type="text" id="txt"><br><br>
+    <button onclick="convertir()">Convierte la cadena</button><br><br>
+    <label>A LA INVERSA: </label>
+    <input type="text" id="inv" value=" "/><br><br>
+    <label>EN MAYÚSCULAS: </label>
+    <input type="text" id="mayus" value=" "/><br><br>
+    <label>REPETIDA: </label>
+    <input type="text" id="rep" value=" " /><br><br>
+    <label>INVERTIDA EN MAYÚSCULAS: </label>
+    <input type="text" id="invMayus" value=" " />
+
+    <script>
+      function convertir() {
+        txt = document.getElementById("txt").value;
+        document.getElementById("inv").value = txt.split("").reverse().join("");
+        document.getElementById("mayus").value = txt.toUpperCase();
+        document.getElementById("rep").value = txt.repeat(3);
+        document.getElementById("invMayus").value = txt.split("").reverse().join("").toUpperCase();
+      }
+      
+    </script>
+  </body>
+</html>
