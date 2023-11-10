@@ -1,59 +1,102 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="asignaturas.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
     <title>DAW</title>
-</head>
+  </head>
 
-<body>
-    <h1>DESARROLLO DE APLICACIONES WEB</h1>
+  <body>
+    <div id="titulo"><h1>DESARROLLO DE APLICACIONES WEB</h1></div>
     <div id="modulos">
-        <h2>Módulos</h2>
-        <div id="año">
-            <div id="nombreCurso">
-                <p>PRIMER CURSO</p>
-            </div>
-            <div class="asignatura" id="rojo">Programación</div>
-            <div class="asignatura" id="verde">Lenguajes de marcas y sistemas de gestión de información</div>
-            <div class="asignatura" id="rosa">Entornos de desarrollo</div>
-            <div class="asignatura" id="cian">Sistemas informáticos</div>
-            <div class="asignatura" id="amarillo">Formación y orientación laboral</div>
-            <div class="asignatura" id="azul">Bases de datos</div>
-            <div class="asignatura" id="morado">Inglés</div>
+      <h2 style="color: white">MÓDULOS</h2>
+      <div id="año">
+        <div id="nombreCurso">
+          <p>PRIMER CURSO</p>
         </div>
-        <div id="año">
-            <div id="nombreCurso">
-                <p>SEGUNDO CURSO</p>
-            </div>
-            <div class="asignatura" id="verde">Desarrollo web en entorno cliente</div>
-            <div class="asignatura" id="rojo">Desarrollo web en entorno servidor</div>
-            <div class="asignatura" id="azul">Despliegue de aplicaciones web</div>
-            <div class="asignatura" id="rosa">Diseño de interfaces web</div>
-            <div class="asignatura" id="naranja">Proyecto de Desarrollo de aplicaciones web</div>
-            <div class="asignatura" id="amarillo">Empresa e iniciativa emprendedora</div>
-            <div class="asignatura" id="morado">Inglés</div>
-            <div class="asignatura" id="cian">Formación en Centros de Trabajo</div>
+        <div class="asignatura">
+          <br /><strong>PROGRAMACIÓN</strong><br /><br />
         </div>
+        <div class="asignatura">
+          <strong>LMSGI</strong><br /><br />Lenguajes de marcas y sistemas de
+          gestión de información
+        </div>
+        <div class="asignatura">
+          <strong>ED</strong><br /><br />Entornos de desarrollo
+        </div>
+        <div class="asignatura">
+          <strong>SI</strong><br /><br />Sistemas informáticos
+        </div>
+        <div class="asignatura">
+          <strong>BD</strong><br /><br />Bases de datos
+        </div>
+        <div class="asignatura">
+          <strong>FOL</strong><br /><br />Formación y orientación laboral
+        </div>
+        <div class="asignatura"><br /><strong>INGLÉS</strong><br /><br /></div>
+      </div>
+      <div id="año">
+        <div id="nombreCurso">
+          <p>SEGUNDO CURSO</p>
+        </div>
+        <div class="asignatura">
+          <strong>DWEC</strong><br /><br />Desarrollo web en entorno cliente
+        </div>
+        <div class="asignatura">
+          <strong>DWES</strong><br /><br />Desarrollo web en entorno servidor
+        </div>
+        <div class="asignatura">
+          <strong>DAW</strong><br /><br />Despliegue de aplicaciones web
+        </div>
+        <div class="asignatura">
+          <strong>DIW</strong><br /><br />Diseño de interfaces web
+        </div>
+        <div class="asignatura">
+          <strong>EIE</strong><br /><br />Empresa e iniciativa emprendedora
+        </div>
+        <div class="asignatura"><br /><strong>INGLÉS</strong><br /><br /></div>
+      </div>
     </div>
-    <div id="dondeestamos">
-        <h2>Dónde estamos</h2>
-        <div id="ubicacion">
-            <div id="imagen">
-                <img style="border-radius: 20px;" src="uni3.png">
-            </div>
-            <div id="map"></div>
-            <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-                integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-            <script src="mapa.js"></script>
-        </div>
 
+    <div id="horario">
+        <h2>HORARIO</h2>
+        <img src="horario.PNG">
     </div>
 
-</body>
+    <div id="ubicacion">
+      <h2>DÓNDE ESTAMOS</h2>
+      <img src="uni3.jpg" id="imagen"/>
+      <div id="map"></div>
+      <script
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""
+      ></script>
+      <script src="mapa.js"></script>
+    </div>
 
+    <div id="info">
+        <h2>MÁS INFORMACIÓN DE INTERÉS</h2>
+        <button onclick="irCentro()">Página web centro</button>
+        <button onclick="irGVA()">Info GVA</button>
+        <script>
+            function irCentro() {
+              window.location.href = "https://www.fpcheste.com/joomla/index.php/es/";
+            }
+
+            function irGVA() {
+              window.location.href = "https://ceice.gva.es/es/web/formacion-profesional/publicador-ciclos/-/asset_publisher/FRACVC0hANWa/content/ciclo-formativo-desarrollo-de-aplicaciones-web";
+            }
+        </script>
+        <br><br>
+        <p style="font-size: small;">Author: Cecilia Cortés Velert 2º DAW</p>
+    </div>
+  </body>
 </html>
