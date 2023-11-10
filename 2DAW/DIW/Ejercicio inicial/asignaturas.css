@@ -1,0 +1,132 @@
+#nombreCurso {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+body {
+  text-align: center;
+}
+
+.asignatura {
+  margin: 20px;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  display: inline-block;
+}
+
+#año {
+  border: 2px solid;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: rgb(255, 233, 204);
+}
+
+#modulos {
+  border: 2px solid;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: darkgray;
+}
+
+#dondeestamos{
+    border: 2px solid;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: darkgray;
+  display: grid;
+    place-items: center;
+}
+#ubicacion{
+    display: flex;
+    align-items: center;
+}
+#imagen{
+    height: 500px; 
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin: 50px;
+}
+
+#map { 
+    height: 500px; 
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin: 50px;
+}
+
+#verde {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(90, 255, 101, 1) 100%
+  );
+}
+
+#cian {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(135, 255, 234, 1) 100%
+  );
+}
+
+#azul {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(135, 224, 255, 1) 100%
+  );
+}
+
+#rojo {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 52, 52, 1) 100%
+  );
+}
+
+#morado {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(201, 124, 255, 1) 100%
+  );
+}
+
+#amarillo {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(247, 255, 124, 1) 100%
+  );
+}
+
+#rosa {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 156, 231, 1) 100%
+  );
+}
+
+#naranja {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 172, 91, 1) 100%
+  );
+}
