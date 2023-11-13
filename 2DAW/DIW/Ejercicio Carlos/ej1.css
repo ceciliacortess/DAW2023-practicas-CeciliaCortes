@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(236, 193, 212);
+    text-align: center;
+    color: white;
+}
+.map {
+    border: 0px; 
+    height: 600px; 
+    width: 1500px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.collapse{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 29%, rgba(148,187,233,1) 100%);
+}
+#boton{
+    color: deeppink;
+}
