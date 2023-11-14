@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pokémon</title>
+    <style>
+        table,
+        tbody,
+        td,
+        tr {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tbody id="pokemonList">
+        </tbody>
+    </table>
+
+    <script>
+        const apiUrl = "https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1300";
+        const pokemonListElement = document.getElementById("pokemonList");
+
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(data => {
+                data.results.forEach((pokemon) => {
+                    fetch(pokemon.url)
+                        .then(response => response.json())
+                        .then(pokemonData => {
+                            const tableRow = document.createElement("tr");
+
+                            const nameCell = document.createElement("td");
+                            nameCell.textContent = pokemonData.name;
+                            tableRow.appendChild(nameCell);
+
+                            const experienceCell = document.createElement("td");
+                            experienceCell.textContent = pokemonData.base_experience;
+                            tableRow.appendChild(experienceCell);
+
+                            const heightCell = document.createElement("td");
+                            heightCell.textContent = (pokemonData.height/10) + " m";
+                            tableRow.appendChild(heightCell);
+
+                            const weightCell = document.createElement("td");
+                            weightCell.textContent = (pokemonData.weight/10) + " kg";
+                            tableRow.appendChild(weightCell);
+
+                            const imageCell1 = document.createElement("td");
+                            const image1 = document.createElement("img");
+                            image1.src = pokemonData.sprites.front_default;
+                            imageCell1.appendChild(image1);
+                            tableRow.appendChild(imageCell1);
+
+                            const imageCell2 = document.createElement("td");
+                            const image2 = document.createElement("img");
+                            image2.src = pokemonData.sprites.back_default;
+                            imageCell2.appendChild(image2);
+                            tableRow.appendChild(imageCell2);
+                            
+                            const imageCell3 = document.createElement("td");
+                            const image3 = document.createElement("img");
+                            image3.src = pokemonData.sprites.front_shiny;
+                            imageCell3.appendChild(image3);
+                            tableRow.appendChild(imageCell3);
+
+                            const imageCell4 = document.createElement("td");
+                            const image4 = document.createElement("img");
+                            image4.src = pokemonData.sprites.back_shiny;
+                            imageCell4.appendChild(image4);
+                            tableRow.appendChild(imageCell4);
+
+                            pokemonListElement.appendChild(tableRow);
+
+                        })
+                });
+            })
+    </script>
+
+</body>
+
+</html>
