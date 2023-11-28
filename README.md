@@ -33,7 +33,6 @@ Holaa🤗, mi nombre es Cecilia. <br> Soy una chica de Valencia (España) con in
 <img src="https://img.shields.io/badge/ubuntu-%23F05032.svg?&style=flat&logo=ubuntu&logoColor=white">
 
 ## Contacta conmigo 📩
-![Instagram](https://img.shields.io/badge/-@ceciliacortess-f73e5d?style=flat&logo=instagram&logoColor=white&link=https://instagram.com/ceciliacortess?igshid=YmMyMTA2M2Y=)
 ![Mail](https://img.shields.io/badge/-ceciliacortesvelert@gmail.com-000000?style=flat&logo=gmail&logoColor=red&link=mailto:ceciliacortesvelert@gmail.com)
 
 ## Github Statistics 📊
