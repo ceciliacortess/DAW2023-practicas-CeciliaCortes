@@ -1,4 +1,4 @@
-## Ejer24-UD1. DOM #1
+## Ejer23-UD1. DOM #1
 Busca por internet como realizar formularios desde JS mediante DOM y realiza algo parecido a esto:
 - 2 párrafos
 - 1 enlace
