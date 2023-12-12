@@ -1,0 +1,70 @@
+$primary-color
+&:
+    #007bff
+            !default;
+                $secondary-color
+        &:
+            #6c757d
+                            !default;
+                .button
+                    display: inline-block
+                    padding: 10px 20px
+                    border: none
+                    border-radius: 5px
+                    color: #fff
+                    font-size: 16px
+                    cursor: pointer
+.primary-button
+    background-color: $primary-color
+.secondary-button
+    background-color: $secondary-color
+.container
+    width: 100%
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+.button-group
+    display: flex
+    gap: 10px
+    .button
+        margin-right: 10px
+
+
+    %base-placeholder
+        color: #fff
+        font-size: 20px
+        text-align: center
+    .list-length
+        color: $primary-color
+        font-weight: bold
+    .map-keys
+        color: $secondary-color
+        font-weight: bold
+.placeholder-text
+    background-color: $primary-color
+    padding: 10px
+.list
+    list-style: none
+    padding: 0
+    li
+        margin-bottom: 10px
+.list-index
+    color: $secondary-color
+    font-weight: bold
+.list-join
+    color: $primary-color
+    font-weight: bold
+.list-append
+    color: $secondary-color
+    font-weight: bold
+.map
+    display: flex
+    gap: 10px
+    div
+        padding: 10px
+        background-color: $primary-color
+        color: #fff
+.map-values
+    color: $primary-color
+    font-weight: bold
