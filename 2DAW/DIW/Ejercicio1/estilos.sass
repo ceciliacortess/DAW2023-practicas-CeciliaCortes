@@ -1,23 +1,34 @@
-$primary-color
-&:
-    #007bff
-            !default;
-                $secondary-color
-        &:
-            #6c757d
-                            !default;
-                .button
-                    display: inline-block
-                    padding: 10px 20px
-                    border: none
-                    border-radius: 5px
-                    color: #fff
-                    font-size: 16px
-                    cursor: pointer
+$primary-color &: #ffb9e4 !default
+$secondary-color &:  #6c757d !default
+$tertiary-color &:  #9adde6 !default
+
 .primary-button
+    display: inline-block
+    padding: padding: calc(#{$padding-value} / 2) calc(#{$padding-value} * 2)
+    border: none
+    border-radius: 5px
+    color: #fff
+    font-size: 16px
+    cursor: pointer
     background-color: $primary-color
 .secondary-button
+    display: inline-block
+    padding: padding: calc(#{$padding-value} / 2) calc(#{$padding-value} * 2)
+    border: none
+    border-radius: 5px
+    color: #fff
+    font-size: 16px
+    cursor: pointer
     background-color: $secondary-color
+.primary-button
+    display: inline-block
+    padding: padding: calc(#{$padding-value} / 2) calc(#{$padding-value} * 2)
+    border: none
+    border-radius: 5px
+    color: #fff
+    font-size: 16px
+    cursor: pointer
+    background-color: $primary-color
 .container
     width: 100%
     height: 100vh
@@ -28,8 +39,7 @@ $primary-color
     display: flex
     gap: 10px
     .button
-        margin-right: 10px
-
+        margin-right: calc(#{$padding-value} / 2)
 
     %base-placeholder
         color: #fff
@@ -41,13 +51,11 @@ $primary-color
     .map-keys
         color: $secondary-color
         font-weight: bold
-.placeholder-text
-    background-color: $primary-color
-    padding: 10px
 .list
-    list-style: none
     padding: 0
     li
+        color: $secondary-color
+        font-weight: bold
         margin-bottom: 10px
 .list-index
     color: $secondary-color
@@ -63,7 +71,7 @@ $primary-color
     gap: 10px
     div
         padding: 10px
-        background-color: $primary-color
+        background-color: $tertiary-color
         color: #fff
 .map-values
     color: $primary-color

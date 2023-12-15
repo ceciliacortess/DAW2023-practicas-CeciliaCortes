@@ -1,4 +1,4 @@
-.button {
+.button1 {
     display: inline-block;
     padding: 10px 20px;
     border: none;
@@ -6,102 +6,93 @@
     color: #fff;
     font-size: 16px;
     cursor: pointer;
-  }
-  
-  
-  .primary-button {
-    background-color: #007bff;
-  }
-  
-  
-  .secondary-button {
+    background-color: #ffb9e4;
+}
+
+.button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
     background-color: #6c757d;
-  }
-  
-  
-  .container {
+}
+.button3{
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #9adde6;
+}
+.container {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  
-  .button-group {
+}
+
+.button-group {
     display: flex;
     gap: 10px;
-  }
-  .button-group .button {
+}
+
+.button {
     margin-right: 10px;
-  }
-  
-  
-  .placeholder-text {
-    color: #fff;
-    font-size: 20px;
-    text-align: center;
-  }
-  
-  
-  .placeholder-text {
-    background-color: #007bff;
-    padding: 10px;
-  }
-  
-  
-  .list {
-    list-style: none;
+}
+
+.list-length {
+    color:#ffb9e4;
+    font-weight: bold;
+}
+
+.map-keys {
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.list {
     padding: 0;
-  }
-  .list li {
+}
+
+li {
     margin-bottom: 10px;
-  }
-  
-  
-  .list-length {
-    color: #007bff;
-    font-weight: bold;
-  }
-  
-  
-  .list-index {
     color: #6c757d;
     font-weight: bold;
-  }
-  
-  
-  .list-join {
-    color: #007bff;
-    font-weight: bold;
-  }
-  
-  
-  .list-append {
+}
+
+.list-index {
     color: #6c757d;
     font-weight: bold;
-  }
-  
-  
-  .map {
+}
+
+.list-join {
+    color: #ffb9e4;
+    font-weight: bold;
+}
+
+.list-append {
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.map {
     display: flex;
     gap: 10px;
-  }
-  .map div {
+}
+
+.map div {
     padding: 10px;
-    background-color: #007bff;
+    background-color: #9adde6;
     color: #fff;
-  }
-  
-  
-  .map-keys {
-    color: #6c757d;
+}
+
+.map-values {
+    color: #ffb9e4;
     font-weight: bold;
-  }
-  
-  
-  .map-values {
-    color: #007bff;
-    font-weight: bold;
-  }/*# sourceMappingURL=estilos.css.map */
-  
+}
