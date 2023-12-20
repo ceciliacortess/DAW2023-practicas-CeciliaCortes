@@ -1,0 +1,65 @@
+footer {
+  background-color: lightgreen;
+}
+@media (max-width: 800px) {
+  footer {
+    background-color: orange;
+  }
+}
+@media (max-width: 400px) {
+  footer {
+    background-color: red;
+  }
+}
+
+h1 {
+  color: #ff6666;
+  background-color: #d60000;
+  margin-bottom: 10px;
+}
+h1 button {
+  margin-right: 5px;
+}
+
+h2 {
+  color: #ffcccc;
+  background-color: #ad0000;
+  margin-bottom: 10px;
+}
+h2 button {
+  margin-right: 5px;
+}
+
+h3 {
+  color: white;
+  background-color: #850000;
+  margin-bottom: 10px;
+}
+h3 button {
+  margin-right: 5px;
+}
+
+h4 {
+  color: white;
+  background-color: #5c0000;
+  margin-bottom: 10px;
+}
+h4 button {
+  margin-right: 5px;
+}
+
+h1 button {
+  margin-left: 5px;
+}
+
+h2 button {
+  margin-left: 5px;
+}
+
+h3 button {
+  margin-left: 5px;
+}
+
+h4 button {
+  margin-left: 5px;
+}/*# sourceMappingURL=estilos.css.map */
