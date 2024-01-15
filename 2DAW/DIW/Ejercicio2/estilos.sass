@@ -1,0 +1,26 @@
+$color-footer-desktop: lightgreen !default
+$color-footer-tablet: orange !default
+$color-footer-mobile: red !default
+
+footer
+  background-color: $color-footer-desktop
+
+  @media (max-width: 800px)
+    background-color: $color-footer-tablet
+
+  @media (max-width: 400px)
+    background-color: $color-footer-mobile
+
+@for $i from 1 through 4
+  h#{$i}
+    color: lighten(red, $i * 20%)
+    background-color: darken(red, $i * 8%)
+    margin-bottom: 10px
+
+    button
+      margin-right: 5px
+
+@for $i from 1 through 4
+  h#{$i}
+    button
+      margin-left: 5px
