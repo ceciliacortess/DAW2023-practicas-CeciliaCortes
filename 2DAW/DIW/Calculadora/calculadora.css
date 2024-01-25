@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+}
+
+button {
+  background-color: pink;
+  width: 100%;
+  font-size: 150%;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+#result {
+  background-color: black;
+  color: pink;
+}
+.ac {
+  background-color: black;
+  color: red;
+}
