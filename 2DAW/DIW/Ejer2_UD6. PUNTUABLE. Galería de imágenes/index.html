@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core@4.9.1/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core@4.9.1/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core@4.9.1/css/ionic.bundle.css" />
+
+    <script src="gallery.js"></script>
+    <title>Galería</title>
+</head>
+
+<body onload="onLoad()">
+    <ion-app>
+        <ion-header>
+            <ion-toolbar>
+                <ion-title>Galería</ion-title>
+                <ion-buttons slot="primary">
+                    <ion-button onclick="play()"><ion-icon slot="icon-only" name="play"></ion-icon></ion-button>
+                    <ion-button onclick="pause()"><ion-icon slot="icon-only" name="pause"></ion-icon></ion-button>
+                </ion-buttons>
+            </ion-toolbar>
+            <ion-toolbar>
+                <ion-item>
+                    <ion-range min="0" max="5000" value="4000">
+                        <ion-icon slot="start" size="small" name="speedometer"></ion-icon>
+                        <ion-icon slot="end" name="speedometer"></ion-icon>
+                    </ion-range>
+                </ion-item>
+            </ion-toolbar>
+        </ion-header>
+        <ion-content>
+            <ion-tabs>
+                <ion-tab tab="pomerania">
+                    <ion-slides id="pomerania">
+                        <ion-slide><img src="img/pomerania1.png" /></ion-slide>
+                        <ion-slide><img src="img/pomerania2.jpg" /></ion-slide>
+                        <ion-slide><img src="img/pomerania3.jpg" /></ion-slide>
+                    </ion-slides>
+                </ion-tab>
+                <ion-tab tab="chihuahua">
+                    <ion-slides id="chihuahua">
+                        <ion-slide><img src="img/chihuahua1.jpg" /></ion-slide>
+                        <ion-slide><img src="img/chihuahua2.jpg" /></ion-slide>
+                        <ion-slide><img src="img/chihuahua3.jpg" /></ion-slide>
+                    </ion-slides>
+                </ion-tab>
+                <ion-tab tab="shiba">
+                    <ion-slides id="shiba">
+                        <ion-slide><img src="img/shiba1.jpg" /></ion-slide>
+                        <ion-slide><img src="img/shiba2.jpg" /></ion-slide>
+                        <ion-slide><img src="img/shiba3.jpg" /></ion-slide>
+                    </ion-slides>
+                </ion-tab>
+            </ion-tabs>
+            <ion-tab-bar slot="bottom">
+                <ion-tab-button tab="pomerania">
+                    <ion-icon name="paw"></ion-icon>
+                    <ion-label>Pomerania</ion-label>
+                </ion-tab-button>
+                <ion-tab-button tab="chihuahua">
+                    <ion-icon name="paw"></ion-icon>
+                    <ion-label>Madrid</ion-label>
+                </ion-tab-button>
+                <ion-tab-button tab="shiba">
+                    <ion-icon name="paw"></ion-icon>
+                    <ion-label>París</ion-label>
+                </ion-tab-button>
+            </ion-tab-bar>
+        </ion-content>
+    </ion-app>
+</body>
+
+</html>
