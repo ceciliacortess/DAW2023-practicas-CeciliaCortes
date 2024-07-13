@@ -7,24 +7,25 @@ Holaa🤗, mi nombre es Cecilia. <br> Soy una chica de Valencia (España) con in
 
 ## Sobre mí :white_heart:
 
-🎓| Actual estudiante de Desarrollo de Aplicaciones Web. <br>
-📚| Posteriormente, me gustaría estudiar Marketing y Publicidad. <br>
-🎮| En mi tiempo libre me encanta jugar a videojuegos con mis amigos. <br>
-🎶| Amante del baile desde pequeña. <br>
-
-### Escuchando ahora 🎧
-
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31r34t6bg2pibdjr3v4xs3tlipcq&cover_image=true&theme=default&show_offline=true&background_color=f3d3e7&interchange=false&bar_color=a81f8a&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=31r34t6bg2pibdjr3v4xs3tlipcq&redirect=true)
+🎓| Desarrolladora de Aplicaciones Web. <br>
+📚| Actual estudiante de Marketing y Publicidad. <br>
+🎮| En mi tiempo libre me gusta pasar con mis amigos y familia, leer, viajar y bailar. <br>
 
 ## Lenguajes y herramientas 🛠
 ![HTML5](https://img.shields.io/badge/-HTML5-%23E44D27?style=flat&logo=html5&logoColor=ffffff)
 ![CSS](https://img.shields.io/badge/-CSS-323D7E?style=flat&logo=css)
+![SCSS](https://img.shields.io/badge/-SCSS-E66DD2?style=flat&logo=scss)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-4E1E71?style=flat&logo=bootstrap)
 ![Java](http://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=ffffff)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)
-![Python](https://img.shields.io/badge/-Python-95b6fc?style=flat&logo=python)
+![TypeScript](http://img.shields.io/badge/-TypeScript-7EB6E8?style=flat&logo=TypeScript)
+![Python](https://img.shields.io/badge/-Python-296188?style=flat&logo=Python)
 ![SQL](https://img.shields.io/badge/-SQL-07183d?style=flat&logo=postgresql)
-![Angular](https://img.shields.io/badge/-Angular-E02B25?style=flat&logo=angular)
+![Oracle](https://img.shields.io/badge/-Oracle-E20000?style=flat&logo=oracle)
+![Firebase](https://img.shields.io/badge/-Firebase-FF6623?style=flat&logo=firebase)
+![SpringBoot](https://img.shields.io/badge/-SpringBoot-298835?style=flat&logo=springboot)
+![Angular](https://img.shields.io/badge/-Angular-E20000?style=flat&logo=angular)
+![Ionic](https://img.shields.io/badge/-Ionic-7EB6E8?style=flat&logo=ionic)
 ![PHP](https://img.shields.io/badge/-PHP-323D7E?style=flat&logo=php)
 ![NPM](https://img.shields.io/badge/-NPM-E20000?style=flat&logo=NPM)
 ![Dockers](https://img.shields.io/badge/-Dockers-007ACC?style=flat&logo=Dockers)
@@ -40,6 +41,5 @@ Holaa🤗, mi nombre es Cecilia. <br> Soy una chica de Valencia (España) con in
 
 ## Github Statistics 📊
 <div><a href=""><img align="center" src="https://github-readme-stats.vercel.app/api?username=ceciliacortess&show_icons=true&title_color=610D4D&icon_color=C949DC&text_color=440A5C&&bg_color=F3D3E7" /></a></div>
-
 
 
